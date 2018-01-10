@@ -1,0 +1,25 @@
+{
+  "name": "route-optimiser",
+  "version": "0.0.1",
+  "description": "finds the shortest distance between multiple points using the Googler Maps API",
+  "main": "./client/app/main.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vactors/route-optimiser.git"
+  },
+  "author": "Vactors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vactors/route-optimiser/issues"
+  },
+  "homepage": "https://github.com/Vactors/route-optimiser#readme"
+}
